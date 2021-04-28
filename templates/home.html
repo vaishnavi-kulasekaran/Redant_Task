@@ -1,0 +1,10 @@
+<h1>USER DATABASE</h1> 
+
+{% for item in all %}
+    Name: {{ item.Name }} <br/>
+    Entry Time: {{item.Entry_time}} <br/>
+    Exit Time: {{item.Exit_time}} <br/>
+    Whom to meet: {{item.Whom_to_meet}} <br/>
+    Reason to visit: {{item.Reason_to_visit}} <br/>
+    <hr>
+{% endfor %}
